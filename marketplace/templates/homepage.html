@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Книги для вас</title>
+</head>
+<body>
+    <h1>Книги для вас</h1>
+    <ul>
+        {% for book in recommendations %}
+            <li>{{book.title}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
