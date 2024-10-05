@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: marketplace/Dockerfile
     environment:
-      RECOMMENDATIONS HOST: recommendations
+      RECOMMENDATIONS_HOST: recommendations
     image: marketplace
     networks:
       - microservices
